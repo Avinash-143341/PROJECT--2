@@ -124,8 +124,11 @@ input {
 
 .hero-right-section img {
   height: 300px;
-  width: 200px;
-  border-radius: 50%;
+  width: 280px;
+  border-radius: 60%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 footer {
@@ -139,4 +142,22 @@ footer ul {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+footer ul li a {
+  color:#555;
+  font-size:22px;
+  transition: all 0.2s ease;;
+
+}
+footer ul li a:hover{
+  transform: translateY(-3px);
+}
+footer ul li a .fa-github:hover{
+  color:#181717
+}
+footer ul li a .fa-instagram:hover{
+   color:#E1306C;
+}
+footer ul li a .fa-linkedin:hover{
+  color:#0A66c2
 }
